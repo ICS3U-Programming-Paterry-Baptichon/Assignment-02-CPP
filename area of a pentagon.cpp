@@ -29,9 +29,7 @@ int main() {
      // Ask if user would like to calculate again
   std::cout << "Would you like to calculate again? Y or N\n";
   std::cin >> userAnswer;
-    if (userAnswer == "N" || "n") {
-      return 0;
-    }
+
   if (userAnswer == "Y" || "y") {
       main();
       
